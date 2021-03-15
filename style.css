@@ -1,0 +1,38 @@
+body {
+
+  text-align: center ;
+  font-family: cursive ;
+  font-size: 20px ;
+
+  background-color: pink ;
+  color : palevioletred ;
+}
+
+#container {
+  text-align: :center ;
+  border: double;
+  width : 900 px;
+  background-color: gold ;
+  padding: antiquewhite ;
+}
+
+@media only screen and (max-width: 1000px) {
+  body.my-box {
+    background-color: paleturquoise;
+  }
+}
+
+body {
+    background-color: pink;
+    height: 200px;
+    width: 400px;
+
+  }
+
+  /* .my-box {
+    background: peachpuff;
+     height:200px;
+    width: 600px;
+    
+
+  } */
